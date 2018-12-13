@@ -1,7 +1,5 @@
 package pl.sda.struktury_danych.kolejka;
 
-import pl.sda.struktury_danych.StosElem;
-
 public class KolejkaList {
 
     KolejkaElem first;

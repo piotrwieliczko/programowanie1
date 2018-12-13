@@ -3,6 +3,9 @@ package pl.sda.struktury_danych;
 import pl.sda.struktury_danych.Algorytmy.BinarySearch;
 import pl.sda.struktury_danych.Algorytmy.ONP;
 import pl.sda.struktury_danych.kolejka.KolejkaList;
+import pl.sda.struktury_danych.stos.StosList;
+import pl.sda.struktury_danych.stos.StosListIndexOutException;
+import pl.sda.struktury_danych.stos.StosTab;
 
 import java.util.Scanner;
 
@@ -11,9 +14,9 @@ public class Main {
     public static void main(String[] args) {
 //        wywolajStosTab();
 //        wywolajStosKist();
-//        wywolajKolejkaList();
+        wywolajKolejkaList();
 //        wywolajONP();
-        wywolajBinarySearch();
+//        wywolajBinarySearch();
 
 
     }

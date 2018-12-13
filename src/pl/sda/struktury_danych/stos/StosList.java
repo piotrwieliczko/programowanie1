@@ -1,4 +1,4 @@
-package pl.sda.struktury_danych;
+package pl.sda.struktury_danych.stos;
 
 
 public class StosList {

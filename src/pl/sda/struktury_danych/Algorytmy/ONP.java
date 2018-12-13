@@ -1,6 +1,6 @@
 package pl.sda.struktury_danych.Algorytmy;
 
-import pl.sda.struktury_danych.StosTab;
+import pl.sda.struktury_danych.stos.StosTab;
 
 public class ONP {
 
