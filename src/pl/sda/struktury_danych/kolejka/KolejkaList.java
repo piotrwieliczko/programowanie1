@@ -12,11 +12,12 @@ public class KolejkaList {
 
     public void add(int wartosc) {
         KolejkaElem newLastElem = new KolejkaElem(wartosc, null); //tworzyy nowy obiekt ostatni
+        //jeeli to ostatni stae się pierwszym
         if (first == null) {
             first = last = newLastElem;
         } else {
             last.setNext(newLastElem);//przypisujemy last do nowego obiektu
-            last = newLastElem;
+            last = newLastElem;//to ostatni staje się nowym elementem
         }
 
     }

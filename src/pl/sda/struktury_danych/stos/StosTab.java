@@ -22,7 +22,6 @@ public class StosTab {
     }
 
     public int pop() throws ArrayIndexOutOfBoundsException {
-
         if (isEmpty()) {
             throw new ArrayIndexOutOfBoundsException();
         }
@@ -35,12 +34,10 @@ public class StosTab {
 
     public boolean isEmpty() {
         return top == -1;
-
     }
 
     public int peek() {
         return tab[top];
-
     }
 
     public boolean isFull() {
@@ -53,7 +50,6 @@ public class StosTab {
             System.out.print(tab[i] + " ");
         }
         System.out.println();
-
 
     }
 }

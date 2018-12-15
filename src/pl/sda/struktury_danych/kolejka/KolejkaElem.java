@@ -4,6 +4,7 @@ public class KolejkaElem {
     private int value;
     private KolejkaElem next;
 
+
     public KolejkaElem () {
 
     }
@@ -11,6 +12,7 @@ public class KolejkaElem {
     public KolejkaElem(int value, KolejkaElem next){
         this.value = value;
         this.next = next;
+
     }
 
     public int getValue() {

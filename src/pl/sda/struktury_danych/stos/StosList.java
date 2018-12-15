@@ -10,6 +10,7 @@ public class StosList {
 
 
     public void push(int wartosc) {
+
         top = new StosElem(wartosc, top);
     }
 
